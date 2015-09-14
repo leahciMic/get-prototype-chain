@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/leahciMic/get-prototype-chain/issues"
   },
-  "homepage": "https://github.com/leahciMic/get-prototype-chain#readme"
+  "homepage": "https://github.com/leahciMic/get-prototype-chain#readme",
+  "devDependencies": {
+    "jasmine": "^2.3.2"
+  }
 }
