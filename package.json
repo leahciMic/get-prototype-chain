@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Returns an array of the object's prototype chain",
   "main": "get-prototype-chain.js",
+  "engines": {
+    "node" ">=4.0.0"
+  }
   "scripts": {
     "test": "jasmine"
   },

@@ -12,10 +12,10 @@ describe('prototype-chain', () => {
   class C extends B {
 
   }
-  var Obj = new C();
+  const Obj = new C();
 
   it('should walk the prototype chain and return objects', () => {
-    var chain = prototypeChain(Obj).map(x => x.constructor.name);
+    const chain = prototypeChain(Obj).map(x => x.constructor.name);
     expect(chain).toEqual(['C', 'B', 'A', 'Object']);
   });
 });
