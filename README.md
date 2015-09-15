@@ -30,5 +30,5 @@ var obj = new C();
 
 getPrototypeChain(obj).map(x => x.constructor.name)
 
-// returns ['C', 'B', 'A', 'Object']
+// returns ['C', 'C', 'B', 'A', 'Object']
 ```
