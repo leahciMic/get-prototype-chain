@@ -1,6 +1,6 @@
 {
   "name": "get-prototype-chain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns an array of the object's prototype chain",
   "main": "get-prototype-chain.js",
   "engines": {
